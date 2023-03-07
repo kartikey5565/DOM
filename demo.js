@@ -74,28 +74,3 @@ let odd=document.querySelectorAll('li:nth-child(odd)');
 for(let i=0; i<odd.length; i++){
     odd[i].style.backgroundColor='green';
 }
-
-//Task-4) getElementbyClassname
-//Make the 3 rd element in the list have green background color.
-// let classItems=document.getElementsByClassName('list-group-item');
-// console.log(classItems);
-
-// classItems[2].style.backgroundColor="green";
-
-//Make all the elements in the list have bold color font.
-// for(let i=0; i<classItems.length; i++){
-//     classItems[i].style.fontWeight="bold";
-// }
-//Task-5) getElementByTagName ;
-//try editing it with getelementsbyclassname:
-// for(let i=0; i<classItems.length; i++){
-//     classItems[i].style.backgroundColor='#f4f4f4';
-// }
-
-//then by getelementbytagname
-// let li=document.getElementsByTagName('li');
-// // console.log(li);
-// for(let i=0; i<li.length; i++){
-//     li[i].style.fontWeight='bold';
-//     li[i].style.color='red';
-// }
